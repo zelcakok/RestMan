@@ -1,0 +1,29 @@
+{
+  "name": "reatman",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "firebase": "^4.12.1",
+    "jquery-confirm": "^3.3.2",
+    "material-ui": "^0.20.0",
+    "material-ui-password-field": "^1.4.1",
+    "moment": "^2.22.1",
+    "react": "^16.3.0",
+    "react-chartjs-2": "^2.7.2",
+    "react-csv-reader": "^0.2.2",
+    "react-datepicker": "^1.4.1",
+    "react-dom": "^16.3.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.2",
+    "react-transition-group": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

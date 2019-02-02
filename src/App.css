@@ -1,0 +1,77 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+.card {
+  max-width:600px;
+  min-width:190px;
+  max-height:500px;
+  min-height:100px;
+  cursor: pointer;
+}
+
+@media screen and (max-device-width: 180px) and (orientation: portrait){
+  .miniCard {
+    width:200px;
+    height:auto;
+    min-width:1800px;
+    max-height:300px;
+    min-height:50px;
+    cursor: pointer;
+  }
+}
+
+.btnSelect {
+  writing-mode: vertical-lr;
+  margin: -10px;
+  font-weight: bold;
+}
+
+.miniCardImg {
+  height:180px;
+  width: auto;
+  object-fit: cover;
+}
+
+.cardImage {
+  width: auto;
+  height: 300px;
+  object-fit:cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
