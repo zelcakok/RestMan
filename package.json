@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-   "node": "10.3.0"
+   "node": "8.11.2"
   },
   "dependencies": {
     "animate.css": "^3.6.1",
